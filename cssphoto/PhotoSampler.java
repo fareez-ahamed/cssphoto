@@ -33,8 +33,8 @@ public class PhotoSampler {
         int r,g,b;
         Color color,temp;
 
-        for(int x=0;x<xn-1;x++) {
-            for(int y=0;y<yn-1;y++) {
+        for(int x=0;x<xn;x++) {
+            for(int y=0;y<yn;y++) {
                 r=g=b=0;
                 for(int i=x*spread;i<((x*spread)+spread);i++) {
                     for(int j=y*spread;j<((y*spread)+spread);j++) {
